@@ -1,0 +1,9 @@
+﻿#	音乐配置表		
+#	Id		AssetName
+#	int		string
+#	音乐编号	策划备注	资源名称
+	1	登录音乐	music_login
+	2	主场景音乐	music_main
+	3	攻击音乐	music_att
+	4	搜索音乐	music_search
+	5	加载音乐	music_logding

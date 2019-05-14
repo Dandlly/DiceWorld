@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Dictionaries>
+  <Dictionary Language="ChineseSimplified">
+    <String Key="Login.User" Value="请输入账号" />
+    <String Key="Login.Pass" Value="请输入密码" />
+    
+    <String Key="Quickly.User" Value="请输入密码" />
+    <String Key="Quickly.Pass" Value="请输入密码" />
+    <String Key="Quickly.Re-enterPass" Value="请再次输入密码" />
+    <String Key="Quickly.Eemail" Value="请输入邮箱" />
+    <String Key="Quickly.MobileNum" Value="请输入手机号码" />
+    <String Key="Quickly.VerificationCode" Value="请输入验证码" />
+    <String Key="Quickly.VCButton" Value="发送短信" />
+    <String Key="Quickly.EnterButton" Value="确认注册" />
+    
+    <String Key="Main.Energy" Value="50/50" />
+    <String Key="Main.DefNum" Value="10/10" />
+    <String Key="Main.AtkNum" Value="10/10" />
+    <String Key="Main.LucklyNum" Value="10/10" />
+    <String Key="Menu.Name" Value="Dandlly" />
+    <String Key="Menu.Exp" Value="0" />
+    <String Key="Menu.Diamond" Value="1000" />
+    <String Key="Menu.Energy" Value="50/50" />
+    <String Key="Menu.Gold" Value="1000" />
+    
+    <String Key="Show.CoinText" Value="1000" />
+    <String Key="Show.DiamondText" Value="1000" />
+
+  </Dictionary>
+</Dictionaries>
+

@@ -1,0 +1,6 @@
+﻿#	默认配置		
+#	配置项	策划备注	配置值
+	Game.Id		Islet
+	Scene.Login		1
+	Scene.Main		2
+	Scene.Atk		3

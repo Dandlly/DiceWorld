@@ -1,0 +1,18 @@
+﻿#	界面配置表					
+#	Id		AssetName	UIGroupName	AllowMultiInstance	PauseCoveredUIForm
+#	int		string	string	bool	bool
+#	界面编号	策划备注	资源名称	界面组名称	是否允许多个界面	是否暂停被其他覆盖
+	1	登录界面	LoginForm	Dafault	FALSE	FALSE
+	2	菜单界面	MenuForm	Dafault	TRUE	TRUE
+	3	主界面	MainForm	Dafault	FALSE	FALSE
+	4	建筑界面	BuildForm	Dafault	TRUE	TRUE
+	5	商店界面	ShopForm	Dafault	TRUE	TRUE
+	6	朋友界面	FeiendForm	Dafault	TRUE	TRUE
+	7	分享界面	ShareForm	Dafault	TRUE	TRUE
+	8	宠物界面	PetForm	Dafault	TRUE	TRUE
+	9	排行界面	RankForm	Dafault	TRUE	TRUE
+	10	邮件界面	MailForm	Dafault	TRUE	TRUE
+	11	设置界面	SettingForm	Dafault	TRUE	TRUE
+	12	充值界面	TopupForm	Dafault	TRUE	TRUE
+	13	注册界面	QuicklyForm	Dafault	FALSE	TRUE
+	14	金币界面	ShowForm	Dafault	TRUE	FALSE

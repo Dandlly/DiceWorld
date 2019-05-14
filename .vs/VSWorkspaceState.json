@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Assets",
+    "\\Assets\\GameMain",
+    "\\Assets\\GameMain\\Configs",
+    "\\Assets\\GameMain\\Editor",
+    "\\Assets\\GameMain\\Editor\\DataTableGenerator",
+    "\\Assets\\GameMain\\Scripts",
+    "\\Assets\\GameMain\\Scripts\\DataTable",
+    "\\Assets\\Scenes"
+  ],
+  "SelectedNode": "\\Assets\\GameMain\\Configs\\DataTableCodeTemplate.txt",
+  "PreviewInSolutionExplorer": false
+}

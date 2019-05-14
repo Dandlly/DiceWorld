@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <AssetBundleCollection>
+    <AssetBundles>
+      <AssetBundle Name="Configs/AssetBundleEditor" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/BuildInfo" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/BuildSettings" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DataTableCodeTemplate" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DefaultConfig" LoadType="0" Packed="False" />
+      <AssetBundle Name="Configs/DefaultDictionary" LoadType="0" Packed="False" />
+      <AssetBundle Name="Entities/Dice" LoadType="0" Packed="False" />
+      <AssetBundle Name="Entities/DicePlane" LoadType="0" Packed="False" />
+      <AssetBundle Name="Materials/Atk" LoadType="0" Packed="False" />
+      <AssetBundle Name="Materials/Def" LoadType="0" Packed="False" />
+      <AssetBundle Name="Materials/luck" LoadType="0" Packed="False" />
+      <AssetBundle Name="Materials/Plane" LoadType="0" Packed="False" />
+      <AssetBundle Name="Textures/AtkTex" LoadType="0" Packed="False" />
+      <AssetBundle Name="Textures/DefTex" LoadType="0" Packed="False" />
+      <AssetBundle Name="Textures/DiceRender" LoadType="0" Packed="False" />
+      <AssetBundle Name="Textures/LucklyTex" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UIForms/BuildingForm" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UIForms/LoginForm" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UIForms/MainForm" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UIForms/QuicklyForm" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UIForms/ShowForm" LoadType="0" Packed="False" />
+      <AssetBundle Name="UI/UISprites/Login/Registert" LoadType="0" Packed="False" />
+    </AssetBundles>
+    <Assets>
+      <Asset Guid="059d10508540e9b43b0964aa66f9d065" AssetBundleName="UI/UIForms/ShowForm" />
+      <Asset Guid="05efda6a022893742a0f06e94d3dcffc" AssetBundleName="Textures/DiceRender" />
+      <Asset Guid="0839903240318ab4ea38a63c7dbd7346" AssetBundleName="UI/UIForms/LoginForm" />
+      <Asset Guid="1503fd64f946be142ada45b293f7ab58" AssetBundleName="Configs/BuildInfo" />
+      <Asset Guid="1a98171b483a47c44a654c79ffcb3e32" AssetBundleName="UI/UIForms/MainForm" />
+      <Asset Guid="1b55f2f7dd39da8468ad59c74abede33" AssetBundleName="Configs/AssetBundleEditor" />
+      <Asset Guid="1ed95698ecdcc2c4a9be59e62c913157" AssetBundleName="Entities/DicePlane" />
+      <Asset Guid="1fdfc0c2d6093694d908efe424602df3" AssetBundleName="UI/UIForms/QuicklyForm" />
+      <Asset Guid="2d4b1751b4dff7a48a549b6fa12a2030" AssetBundleName="Textures/AtkTex" />
+      <Asset Guid="54163de2483f46448a2ae55a0ebd240c" AssetBundleName="Configs/DataTableCodeTemplate" />
+      <Asset Guid="5dfb8ee5510455e42851e308dc4d70eb" AssetBundleName="Textures/DefTex" />
+      <Asset Guid="6059b35874485e5439103bbf6bb58e2c" AssetBundleName="Materials/luck" />
+      <Asset Guid="6314cf8d0f96e3a40b83ad720e24b1d1" AssetBundleName="Materials/Plane" />
+      <Asset Guid="7ed3910000d24264db6dd8511e49078c" AssetBundleName="Entities/Dice" />
+      <Asset Guid="813f26cd40f918148a99da72dc795e6a" AssetBundleName="Configs/BuildSettings" />
+      <Asset Guid="a2da8e1281263c04abace3edb2fb046b" AssetBundleName="UI/UISprites/Login/Registert" />
+      <Asset Guid="acbbc99deea884940b3a056eb57a2088" AssetBundleName="Materials/Def" />
+      <Asset Guid="ada3698967ad11745bd6097c553b4887" AssetBundleName="Textures/LucklyTex" />
+      <Asset Guid="adf45a6c07930094cbd922b63879d871" AssetBundleName="Configs/DefaultDictionary" />
+      <Asset Guid="c22c4b25d02832e4a95618f55dcdbb67" AssetBundleName="UI/UIForms/BuildingForm" />
+      <Asset Guid="c76bf45f138cd914082c3c9f7e48bc3c" AssetBundleName="Configs/DefaultConfig" />
+      <Asset Guid="f71598a386163444492c46de4e67374d" AssetBundleName="Materials/Atk" />
+    </Assets>
+  </AssetBundleCollection>
+</UnityGameFramework>
