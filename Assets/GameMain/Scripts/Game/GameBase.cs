@@ -23,32 +23,38 @@ namespace IsletGame
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             {
                 Position = new Vector3(-1.7f, 1.5f, 0f),
-                MaterialName = "Atk"
+                MaterialName = "Atk",
+                Name = "Dice",
             });
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             {
                 Position = new Vector3(0f, 1.5f, 0f),
-                MaterialName = "Atk"
+                Name = "Dice",
+                MaterialName = "Atk",
             });
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             {
                 Position = new Vector3(1.7f, 1.5f, 0f),
-                MaterialName = "Def"
+                Name = "Dice",
+                MaterialName = "Def",
             });
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             {
                 Position = new Vector3(-1.7f, 1.5f, -1.6f),
-                MaterialName = "Def"
+                Name = "Dice",
+                MaterialName = "Def",
             });
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             {
                 Position = new Vector3(0f, 1.5f, -1.6f),
-                MaterialName = "Luck"
+                Name = "Dice",
+                MaterialName = "Luck",
             });
             GameEntry.Entity.ShowDice(new DiceData(GameEntry.Entity.GenerateSerialId(), 10001)
             { 
                 Position = new Vector3(1.7f, 1.5f, -1.6f),
-                MaterialName = "Luck"
+                Name = "Dice",
+                MaterialName = "Luck",
             });
         }
 

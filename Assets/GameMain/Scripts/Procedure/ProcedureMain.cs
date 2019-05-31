@@ -23,6 +23,9 @@ namespace IsletGame
 	public class ProcedureMain : ProcedureBase
     {
         private GameBase m_CurrentGame ;
+        private bool isGetEntity = false;
+        public UnityGameFramework.Runtime.Entity[] entities = null;
+        List<UnityGameFramework.Runtime.Entity> ts = new List<UnityGameFramework.Runtime.Entity>();
         public override bool UseNativeDialog
         {
             get
@@ -41,30 +44,90 @@ namespace IsletGame
         {
             base.OnEnter(procedureOwner);
             GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
+            //打开UI
             GameEntry.UI.OpenUIForm(UIFormId.MainForm);
             GameEntry.UI.OpenUIForm(UIFormId.ShowForm);  
-            m_CurrentGame.Initialize();
+            //实例化骰子
+            m_CurrentGame.Initialize();  
+            
+
         }
         protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
         {
             base.OnUpdate(procedureOwner, elapseSeconds, realElapseSeconds);
-            
-            AllDiceIsSleep();
+            //骰子的返回值
+            AllDiceNum();
         }
 
         protected override void OnLeave(ProcedureOwner procedureOwner, bool isShutdown)
         {
+            m_CurrentGame.Shutdown();
             GameEntry.Event.Unsubscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
             base.OnLeave(procedureOwner, isShutdown);
         }
 
-        private void AllDiceIsSleep()
+        /// <summary>
+        /// 检查骰子是否静止了
+        /// </summary>
+        /// <returns></returns>
+        private bool AllDiceIsSheep()
         {
-            
-            foreach (var item in GameEntry.Entity.GetEntityGroup("Dice").GetAllEntities())
+            //这里因为骰子永远只有6个，所以我锁死了
+            if (entities[0].GetComponent<Rigidbody>().IsSleeping()&&
+                entities[1].GetComponent<Rigidbody>().IsSleeping()&&
+                entities[2].GetComponent<Rigidbody>().IsSleeping()&&
+                entities[3].GetComponent<Rigidbody>().IsSleeping()&&
+                entities[4].GetComponent<Rigidbody>().IsSleeping()&&
+                entities[5].GetComponent<Rigidbody>().IsSleeping())
             {
-                Debug.Log(item.EntityAssetName);
+                return true;
+            }          
+            return false;
+        }
+
+        private void AllEntites()
+        {
+            if (!isGetEntity)
+            {
+                GetDiceEntities();
+                if (entities.Length == 6)
+                {
+                    isGetEntity = true;
+                }
             }
+        }
+
+        /// <summary>
+        /// 获取骰子的实体(排除地板这个实体)
+        /// </summary>
+        private void GetDiceEntities()
+        {
+            entities=GameEntry.Entity.GetEntities("Assets/GameMain/Entities/Dice.prefab");          
+        }
+
+        /// <summary>
+        /// 获取全部骰子数值
+        /// </summary>
+        private void AllDiceNum()
+        {
+            AllEntites();
+            if (isGetEntity)
+            {
+                if (AllDiceIsSheep())
+                {
+                    if (entities.Length == 6)
+                    {
+                        foreach (var item in entities)
+                        {
+                            if (item.GetComponent<DiceNumBase>().value != 0)
+                            {
+                                //这里完成获取每个骰子的返回值（传入粒子系统完成粒子特效显示）
+                              //  Debug.Log(item.GetComponent<DiceNumBase>().value);
+                            }
+                        }
+                    }
+                }
+            }                                       
         }
 
         private void OnOpenUIFormSuccess(object sender, GameEventArgs e)

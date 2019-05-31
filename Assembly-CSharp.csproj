@@ -104,6 +104,8 @@
     <Compile Include="Assets\GameMain\Scripts\Procedure\ProcedurePreload.cs" />
     <Compile Include="Assets\GameMain\Scripts\Procedure\ProcedureSplash.cs" />
     <Compile Include="Assets\GameMain\Scripts\Sound\SoundExtension.cs" />
+    <Compile Include="Assets\GameMain\Scripts\UI\Building\BuildingFun.cs" />
+    <Compile Include="Assets\GameMain\Scripts\UI\Building\BuildingMenu.cs" />
     <Compile Include="Assets\GameMain\Scripts\UI\Builtin\UGuiForm.cs" />
     <Compile Include="Assets\GameMain\Scripts\UI\Builtin\UGuiGroupHelper.cs" />
     <Compile Include="Assets\GameMain\Scripts\UI\Builtin\UIExtension.cs" />
@@ -146,46 +148,25 @@
     <None Include="Assets\GameMain\DataTables\Sound.txt" />
     <None Include="Assets\GameMain\Configs\AssetBundleBuilder.xml" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>E:/游戏开发小岛/V1/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>E:/game/V1/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>E:/Unity2019.1/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -371,43 +352,43 @@
       <HintPath>E:/Unity2019.1/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="DOTween43">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="DOTween46">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
-      <HintPath>E:/游戏开发小岛/V1/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>E:/游戏开发小岛/V1/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="protobuf-net">
-      <HintPath>E:/游戏开发小岛/V1/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/GameMain/Libraries/protobuf-net.dll</HintPath>
     </Reference>
     <Reference Include="GameFramework">
-      <HintPath>E:/游戏开发小岛/V1/Assets/UnityGameFramework-master/Libraries/GameFramework.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/UnityGameFramework-master/Libraries/GameFramework.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>E:/游戏开发小岛/V1/Assets/UnityGameFramework-master/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
+      <HintPath>E:/game/V1/Assets/UnityGameFramework-master/Libraries/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/游戏开发小岛/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/game/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/游戏开发小岛/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/game/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/游戏开发小岛/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/game/V1/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>E:/Unity2019.1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

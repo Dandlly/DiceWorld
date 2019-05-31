@@ -21,18 +21,22 @@ namespace IsletGame{
         private Button signIn_Btn;
         private Button topUp_Btn;
         private Button firstCharge_Btn;
+        private Button building_Btn;
 
         private GameObject menu;
+        private GameObject buliding;
 
         private bool menu_isShow = false;
 
         private void Awake()
         {
             menu_Btn = transform.Find("MenuFun/MenuBtn").GetComponent<Button>();
+            building_Btn = transform.Find("BuildingBtn").GetComponent<Button>();
             signIn_Btn = transform.Find("Functions/Sign_btn").GetComponent<Button>();
             topUp_Btn = transform.Find("Functions/TopUp_btn").GetComponent<Button>();
             firstCharge_Btn = transform.Find("Functions/FirstCharge_btn").GetComponent<Button>();
             menu = transform.Find("MenuForm").gameObject;
+            buliding = transform.Find("BuildingForm").gameObject;
         }
 
         private void Start()
@@ -40,7 +44,8 @@ namespace IsletGame{
             menu_Btn.onClick.AddListener(Menu);
             signIn_Btn.onClick.AddListener(SignInFun);
             topUp_Btn.onClick.AddListener(TopUpFun);
-            firstCharge_Btn.onClick.AddListener(FirstChargeFun); 
+            firstCharge_Btn.onClick.AddListener(FirstChargeFun);
+            building_Btn.onClick.AddListener(BulidingFun);
         }
 
         private void Update()
@@ -81,6 +86,11 @@ namespace IsletGame{
         public void FirstChargeFun()
         {
 
+        }
+
+        public void BulidingFun()
+        {
+            buliding.GetComponent<DOTweenAnimation>().DOPlayForward();
         }
     }
 }

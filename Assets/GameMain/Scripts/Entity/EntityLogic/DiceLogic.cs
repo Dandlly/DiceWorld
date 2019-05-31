@@ -72,7 +72,6 @@ namespace IsletGame
         {
             if (collision.collider.tag == "Plane")
             {
-                Debug.Log("碰到地板");
                 SlidingCon._instance.DiceIsMove = false;
                 isJump = false;
             }

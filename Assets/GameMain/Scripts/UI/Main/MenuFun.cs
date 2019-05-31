@@ -14,6 +14,7 @@ namespace IsletGame {
         private Button rank_btn;
         private Button email_btn;
         private Button settinng_btn;
+        private Button building_btn;
 
         private Button shopClose_btn;
         private Button friendClose_btn;
@@ -38,6 +39,7 @@ namespace IsletGame {
             rank_btn = transform.Find("MenuForm/MenuGroup/Rank").GetComponent<Button>();
             email_btn = transform.Find("MenuForm/MenuGroup/Email").GetComponent<Button>();
             settinng_btn = transform.Find("MenuForm/MenuGroup/Setting").GetComponent<Button>();
+            building_btn = transform.Find("BuildingBtn").GetComponent<Button>();
 
             shopClose_btn = transform.Find("MenuFun/Shop/Close").GetComponent<Button>();
             friendClose_btn = transform.Find("MenuFun/Friends/Close").GetComponent<Button>();

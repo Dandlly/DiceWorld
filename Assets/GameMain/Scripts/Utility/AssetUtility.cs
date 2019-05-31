@@ -124,6 +124,17 @@ namespace IsletGame
         }
 
 
+        /// <summary>
+        /// 获取建筑Sprite的完整路径
+        /// </summary>
+        /// <param name="assetName"></param>
+        /// <returns></returns>
+        public static string GetSpriteAsset(string assetName)
+        {
+            return Utility.Text.Format("Assets/GameMain/BuildingSprite/{0}.png", assetName);
+        }
+
+
     }
 }
 
